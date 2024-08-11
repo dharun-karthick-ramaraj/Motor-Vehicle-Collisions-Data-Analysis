@@ -3,9 +3,15 @@
 ## Project Overview
 This project involves analyzing motor vehicle collision data from three cities: New York, Chicago, and Austin. The analysis is focused on understanding various aspects of the collisions, such as the frequency of accidents, areas with the highest number of incidents, and patterns involving injuries and fatalities. The project utilized a combination of tools and technologies, including Talend for ETL processes, SQL for data querying, and both Power BI and Tableau for data visualization.
 
+## Source Data
+- **Chicago:** [Traffic Crashes - Crashes | City of Chicago](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data)
+- **Austin:** [Austin Crash Report Data - Crash Level Records | City of Austin](https://data.austintexas.gov/Transportation-and-Mobility/Austin-Crash-Report-Data-Crash-Level-Records/y2wy-tgr5/about_data)
+- **New York:** [Motor Vehicle Collisions - Crashes | NYC Open Data](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data)
+
 ## Technologies and Tools Used
 - **Talend:** Used for ETL processes to extract, transform, and load the data from various sources.
 - **YData Profiling:** Jupyter notebook used for data profiling and exploration.
+- **Alteryx:** Performed data profiling, quality checks, and ensured data integrity and proper transformations.
 - **SQL:** Employed for querying the data and creating the necessary data structures.
 - **Power BI & Tableau:** Visualization tools used to create dashboards and reports to represent the analyzed data.
 - **Mapping Documentation:** Detailed documentation explaining how the columns from the source data were mapped to the target data structures.
@@ -17,6 +23,7 @@ This project involves analyzing motor vehicle collision data from three cities: 
 
 ### Data Profiling
 - **ydata_profiling.ipynb:** Jupyter notebook that provides an in-depth analysis of the dataset, including data quality checks, distributions, and key insights.
+- **Alteryx:** Used for performing data profiling and quality checks to ensure data integrity before transformation.
 
 ### SQL Scripts
 - **SQL Scripts Folder:** Contains all the SQL scripts used for creating tables, querying data, and performing various data transformations.
@@ -38,6 +45,7 @@ This project involves analyzing motor vehicle collision data from three cities: 
 
 3. **Data Profiling:**
    - Open the `ydata_profiling.ipynb` notebook in Jupyter and run the cells to understand the structure and quality of the data.
+   - Use Alteryx to perform additional data profiling and quality checks to ensure data integrity.
 
 4. **Run SQL Scripts:**
    - Execute the SQL scripts in the provided order to create tables, load data, and perform necessary transformations for analysis.
@@ -49,4 +57,4 @@ This project involves analyzing motor vehicle collision data from three cities: 
    - Open the Power BI and Tableau files to explore the visualizations and gain insights from the data.
 
 ## Conclusion
-This project highlights the use of advanced data architectures and business intelligence tools to analyze motor vehicle collision data. By leveraging ETL processes, SQL queries, and powerful visualization tools, the project provides a comprehensive view of traffic incidents across multiple cities.
+This project highlights the use of advanced data architectures and business intelligence tools to analyze motor vehicle collision data. By leveraging ETL processes, SQL queries, Alteryx for data integrity, and powerful visualization tools, the project provides a comprehensive view of traffic incidents across multiple cities.
